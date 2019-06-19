@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tablayout.TabLayoutActivity"></activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".viewpager.ViewPagerActivity">
+        <activity android:name=".libros.LibroActivity"></activity>
+        <activity android:name=".tablayout.TabLayoutActivity" />
+        <activity android:name=".viewpager.ViewPagerActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
