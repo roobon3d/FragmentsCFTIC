@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_ppal);
 
-        //startActivity(new Intent(this, TabLayoutActivity.class));
+        startActivity(new Intent(this, TabLayoutActivity.class));
         //startActivity(new Intent(this, LibroActivity.class));
-        startActivity(new Intent(this, ViewPagerActivity.class));
+        //startActivity(new Intent(this, ViewPagerActivity.class));
     }
 }
